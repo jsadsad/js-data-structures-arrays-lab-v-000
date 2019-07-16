@@ -24,3 +24,11 @@ appendDriver = (str) => {
 prependDriver = (str) => {
   return [str, ...drivers]
 }
+
+removeLastDriver = () => {
+  return drivers.slice(0, drivers.length - 1)
+}
+
+removeFirstDriver = () => {
+  return drivers.slice(1)
+}
