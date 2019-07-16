@@ -20,3 +20,7 @@ destructivelyRemoveFirstDriver = (str) => {
 appendDriver = (str) => {
   return [...drivers, str]
 }
+
+prependDriver = (str) => {
+  return [str, ...drivers]
+}
