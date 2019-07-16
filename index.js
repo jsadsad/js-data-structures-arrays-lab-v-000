@@ -16,3 +16,7 @@ function destructivelyRemoveLastDriver(str) {
 destructivelyRemoveFirstDriver = (str) => {
   return drivers.shift(str)
 }
+
+appendDriver = (str) => {
+  return [...drivers, str]
+}
